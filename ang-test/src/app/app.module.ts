@@ -2,14 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { firstComp } from './first-component/first-component.component';
-import { ComponentCli } from './component-cli/component-cli.component';
+import { FirstComponentComponent } from './first-component/first-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    firstComp,
-    ComponentCli
+    FirstComponentComponent
   ],
   imports: [
     BrowserModule
